@@ -1,0 +1,28 @@
+@mixin button-menu-bg {
+    background: #54472a; /* Old browsers */
+    background: -moz-linear-gradient(top,  #54472a 0%, #5c5034 50%, #54472a 51%, #54472a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#54472a), color-stop(50%,#5c5034), color-stop(51%,#54472a), color-stop(100%,#54472a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #54472a 0%,#5c5034 50%,#54472a 51%,#54472a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #54472a 0%,#5c5034 50%,#54472a 51%,#54472a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #54472a 0%,#5c5034 50%,#54472a 51%,#54472a 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #54472a 0%,#5c5034 50%,#54472a 51%,#54472a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54472a', endColorstr='#54472a',GradientType=0 ); /* IE6-9 */
+}
+@mixin button-menu-bg-hover {
+    background: #3b3019; /* Old browsers */
+    background: -moz-linear-gradient(top,  #3b3019 0%, #443a24 50%, #3b3019 51%, #3b3019 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b3019), color-stop(50%,#443a24), color-stop(51%,#3b3019), color-stop(100%,#3b3019)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #3b3019 0%,#443a24 50%,#3b3019 51%,#3b3019 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #3b3019 0%,#443a24 50%,#3b3019 51%,#3b3019 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #3b3019 0%,#443a24 50%,#3b3019 51%,#3b3019 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #3b3019 0%,#443a24 50%,#3b3019 51%,#3b3019 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3019', endColorstr='#3b3019',GradientType=0 ); /* IE6-9 */
+}
+
+@mixin content-shadow-and-radius {
+    -webkit-box-shadow: 0 3px 10px 5px rgba(0,0,0,0.5);
+    box-shadow: 0 3px 10px 5px rgba(0,0,0,0.5);
+
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}

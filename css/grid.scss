@@ -1,0 +1,51 @@
+.centering {
+    width: 976px;
+    margin: 0 auto !important;
+//    overflow: auto;
+}
+
+.row:after {
+        display: block;
+        content: ' ';
+        height: 0;
+        visibility: hidden;
+        clear: both;
+}
+
+[class*='span'] {
+    float: left;
+    display: inline;
+    margin-right: 30px;
+
+    &:last-child {
+        margin-right: 0;
+        float: right;
+    }
+}
+
+
+.span1  { width: 63px;  }
+.span2  { width: 159px; }
+.span3  { width: 256px; }
+.span4  { width: 275px; }
+.span5  { width: 351px; }
+.span6  { width: 478px; }
+.span7  { width: 561px; }
+.span8  { width: 621px; }
+.span9  { width: 727px; }
+.span10 { width: 810px; }
+.span11 { width: 893px; }
+.span12 { width: 976px; }
+
+.offset1  { margin-left: 63px;  }
+.offset2  { margin-left: 146px; }
+.offset3  { margin-left: 229px; }
+.offset4  { margin-left: 312px; }
+.offset5  { margin-left: 395px; }
+.offset6  { margin-left: 478px; }
+.offset7  { margin-left: 561px; }
+.offset8  { margin-left: 621px; }
+.offset9  { margin-left: 727px; }
+.offset10 { margin-left: 810px; }
+.offset11 { margin-left: 893px; }
+.offset12 { margin-left: 976px; }
